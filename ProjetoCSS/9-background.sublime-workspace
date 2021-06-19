@@ -1,0 +1,350 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"font",
+				"font-family\tproperty"
+			],
+			[
+				"bo",
+				"bottom\tproperty"
+			],
+			[
+				"a",
+				"absolute"
+			],
+			[
+				"d",
+				"display\tproperty"
+			],
+			[
+				"l",
+				"limpa-fluxo"
+			],
+			[
+				"back",
+				"background\tproperty"
+			],
+			[
+				"mar",
+				"margin\tproperty"
+			],
+			[
+				"st",
+				"strong\tTag"
+			],
+			[
+				"text-a",
+				"text-align\tproperty"
+			],
+			[
+				"bor",
+				"border\tproperty"
+			],
+			[
+				"h",
+				"html"
+			],
+			[
+				"bac",
+				"background\tproperty"
+			],
+			[
+				"re",
+				"repeat-x\tbackground-repeat"
+			],
+			[
+				"background-c",
+				"background-color\tproperty"
+			],
+			[
+				"te",
+				"text-decoration\tproperty"
+			],
+			[
+				"F",
+				"formatacao"
+			],
+			[
+				"fo",
+				"font-size\tproperty"
+			],
+			[
+				"border-c",
+				"border-color\tproperty"
+			],
+			[
+				"r",
+				"rodape"
+			],
+			[
+				"co",
+				"color\tproperty"
+			],
+			[
+				"o",
+				"option\tTag"
+			],
+			[
+				"se",
+				"select\tTag"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"cont",
+				"Contato"
+			],
+			[
+				"me",
+				"meta\tTag"
+			],
+			[
+				"im",
+				"imagens"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "9-background.html",
+			"settings":
+			{
+				"buffer_size": 1078,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/E/SENAC-CURSOS/Curso senac  front-End/Projeto-03/css/estilo.css",
+		"/E/SENAC-CURSOS/Curso senac  front-End/Projeto-03/index.html",
+		"/E/SENAC-CURSOS/Curso senac  front-End/Projeto5-cssintermediario/7-links.html",
+		"/E/SENAC-CURSOS/Curso senac  front-End/Projeto5-cssintermediario/estilo.css",
+		"/E/SENAC-CURSOS/Curso senac  front-End/Projeto4-Annabella/contato.html",
+		"/E/SENAC-CURSOS/Curso senac  front-End/Projeto4-Annabella/estilo.css",
+		"/E/SENAC-CURSOS/Curso senac  front-End/Projeto4-Annabella/index.html",
+		"/E/SENAC-CURSOS/Curso senac  front-End/Projeto4-Annabella/css/estilo.css",
+		"/E/SENAC-CURSOS/Curso senac  front-End/ProjetoCSS/index.html",
+		"/E/SENAC-CURSOS/Curso senac  front-End/ProjetoCSS/pagina1.html",
+		"/E/SENAC-CURSOS/Curso senac  front-End/ProjetoCSS/css/estilo.css",
+		"/E/SENAC-CURSOS/Curso senac  front-End/ProjetoCSS/pagina2.html",
+		"/E/SENAC-CURSOS/Curso senac  front-End/ProjetoCSS/estilo.css",
+		"/E/SENAC-CURSOS/Curso senac  front-End/ProjetoCSS/7-tamanho-texto.html",
+		"/E/SENAC-CURSOS/Curso senac  front-End/ProjetoCSS/6-fontes-cores.html",
+		"/E/SENAC-CURSOS/Curso senac  front-End/ProjetoCSS/5-bordas.html",
+		"/C/Users/fagne/OneDrive/Área de Trabalho/Curso senac  front-End/ProjetoCSS/4-divs-span.html",
+		"/C/Users/fagne/OneDrive/Área de Trabalho/Curso senac  front-End/ProjetoCSS/inlinecss.html",
+		"/C/Users/fagne/OneDrive/Área de Trabalho/Curso senac  front-End/Projeto-2-UNES/index.html",
+		"/C/Users/fagne/OneDrive/Área de Trabalho/Curso senac  front-End/Projeto-2-UNES/contato.html",
+		"/C/Users/fagne/OneDrive/Área de Trabalho/Curso senac  front-End/Projeto-2-UNES/quem-somos.html",
+		"/C/Users/fagne/OneDrive/Área de Trabalho/Curso senac  front-End/Projeto-1/formularios.html",
+		"/C/Users/fagne/OneDrive/Área de Trabalho/Curso senac  front-End/Projeto-1/site-meu/quem-somos.html",
+		"/C/Users/fagne/OneDrive/Área de Trabalho/Curso senac  front-End/Projeto-1/site-meu/index.html",
+		"/C/Users/fagne/OneDrive/Área de Trabalho/Curso senac  front-End/Projeto-1/entidades.html",
+		"/C/Users/fagne/OneDrive/Área de Trabalho/Curso senac  front-End/Projeto-1/index.html",
+		"/C/Users/fagne/OneDrive/Área de Trabalho/Curso senac  front-End/Projeto-1/contato.html",
+		"/C/Users/fagne/OneDrive/Área de Trabalho/Curso senac  front-End/Projeto-1/tabela.html",
+		"/C/Users/fagne/OneDrive/Área de Trabalho/Curso senac  front-End/Projeto-1/exercicio-img.html",
+		"/C/Users/fagne/OneDrive/Área de Trabalho/Curso senac  front-End/Projeto-1/exercicio-imagens1.html",
+		"/C/Users/fagne/OneDrive/Área de Trabalho/Curso senac  front-End/Projeto-1/exercicio1.html",
+		"/C/Users/fagne/OneDrive/Área de Trabalho/Curso senac  front-End/index.html"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "9-background.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1078,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								661,
+								661
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 48.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "9-background.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"index.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
