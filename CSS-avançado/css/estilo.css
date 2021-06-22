@@ -1,0 +1,43 @@
+span.verde {
+  color: green;
+}
+
+li>a{
+  color: red;
+  text-decoration: none;
+}
+
+
+/* Aula 2 - CSS Avançado -  */
+
+/* Herança */
+body {
+
+  color: red ;
+  font-family: Arial, Helvetica, sans-serif;
+  /* border: 1px solid blue; */
+  
+}
+
+p{
+  font-size: 1.2em;
+}
+
+/* Especificidade */
+
+h2{
+  color: aqua;
+}
+
+h2{
+  color: blueviolet;
+}
+
+h2.rosa{
+  color: pink;
+}
+
+h2#amarelo{
+  color: yellow;
+}
+
