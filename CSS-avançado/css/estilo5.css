@@ -1,0 +1,107 @@
+/* ESTILO - IMAGENS LÍQUIDAS OU FLUÍDAS */
+
+body{
+    font-family: sans-serif;
+    background: #f2f2f2;
+}
+
+#principal {
+  background: white;
+  width: 80%;
+  margin: 0 auto;
+   min-width: 720px; /* largura minima */
+  max-width: 1200px; /* largura maxima */
+
+  /* max-height: ;
+  min-height: ; */
+
+}
+
+#logo {
+  background: url('../imagens/cabecalho2.jpg')no-repeat;
+  height: 200px;
+  line-height: 200px;
+  text-align: center;
+  font-size: 2em;
+}
+
+#conteudo{
+  width: 72%;
+  
+  float:  right;
+}
+
+#conteudo-principal{
+  width: 73%;
+  float: left;
+}
+
+#conteudo-secundario{
+  width: 21%;
+  float: right;
+  background: #c2c2c2;
+  padding: 5px;
+}
+
+#conteudo-secundario h2{
+  font-size: 1.2em; 
+}
+
+#nav{
+  float: left;
+  width:  25%;
+  padding: 20px 0;
+  background: #d1d1d1;
+
+  box-shadow: inset 10px 10px 15px 15px blanchedalmond;
+}
+
+#rodape { 
+  clear: both;
+  padding: 5px;
+  background: #c2c2c2;
+}
+
+#nav ul{
+  list-style-type: none;
+}
+
+#nav a{
+  text-decoration: none;
+}
+ 
+
+#nav a:link, a:visited{
+  color: #246fbf;
+}
+
+img.img-conteudo {
+  width: 90%;
+  max-width: 640px;
+}
+
+
+
+
+/* ul{
+  
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+ul a{
+  display: block;
+  width: 180px;
+  height: 40px;
+  background: #bdc3c7 url('../imagens/menu-seta-branca.png');
+  text-decoration:  none;
+  color: black;
+  text-indent: 30px;
+  line-height: 40px;
+
+}
+a:hover{
+  background-position: right;
+  color: aliceblue;
+  background-color: #5d6d7e;
+} */

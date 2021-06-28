@@ -1,0 +1,44 @@
+body {
+  font-family: sans-serif;
+}
+
+fieldset {
+  padding: 10px;
+  border: 2px solid burlywood;
+  background: cornsilk;
+  width: 60%;
+}
+
+legend{
+  font-weight: bold;
+
+}
+
+label{
+  display: block;
+  padding: 5px;
+  cursor: pointer;
+}
+
+input{
+  width: 400px;
+  background: darkcyan;
+}
+
+textarea{
+  width: 90%;
+  height: 6em;
+}
+/* formatação para navegadores mais novos */
+ input[type="radio"]{
+  width: auto;
+ 
+} 
+/* formatação para navegadores mais antigos */
+input.radio{
+  width: auto;
+}
+
+label.sexo{
+  display: inline;
+}

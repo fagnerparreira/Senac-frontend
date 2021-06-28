@@ -1,0 +1,96 @@
+body{
+    font-family: sans-serif;
+    background: #f2f2f2;
+}
+
+#principal {
+  background: white;
+  width: 720px;
+  margin: 0 auto;
+
+}
+
+#logo {
+  background: lightsalmon;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  font-size: 2em;
+}
+
+#conteudo{
+  width: 520px;
+  
+  float:  right;
+}
+
+#conteudo-principal{
+  width: 380px;
+  float: left;
+}
+
+#conteudo-secundario{
+  width: 120px;
+  float: right;
+  background: #c2c2c2;
+  padding: 5px;
+}
+
+#conteudo-secundario h2{
+  font-size: 1.2em;
+}
+
+#nav{
+  float: left;
+
+  width:  180px;
+  padding: 20px 0;
+  background: #d1d1d1;
+}
+
+#rodape {
+  clear: both;
+  padding: 5px;
+  background: #c2c2c2;
+}
+
+#nav ul{
+  list-style-type: none;
+}
+
+#nav a{
+  text-decoration: none;
+}
+ 
+
+#nav a:link, a:visited{
+  color: #246fbf;
+}
+
+
+
+
+
+
+/* ul{
+  
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+ul a{
+  display: block;
+  width: 180px;
+  height: 40px;
+  background: #bdc3c7 url('../imagens/menu-seta-branca.png');
+  text-decoration:  none;
+  color: black;
+  text-indent: 30px;
+  line-height: 40px;
+
+}
+a:hover{
+  background-position: right;
+  color: aliceblue;
+  background-color: #5d6d7e;
+} */

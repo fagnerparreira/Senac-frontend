@@ -1,0 +1,50 @@
+ul{
+  list-style-type: none;
+  border: 1px solid red;
+  margin: 0px;
+  padding: 0px;
+  float: left;
+
+  background-image: linear-gradient(to right,#5D4157,#A8CABA) ;
+
+}
+
+li{
+  
+   padding: 20px 3px;
+  float: left;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  padding: 1em;
+ 
+  /* border-left: 3px solid gray; */
+  border-left: 3px solid ;
+  border-image: linear-gradient(#5D4157,#A8CABA)1;
+}
+
+/* para quando passar o mouse mudar a cor */
+a:hover {
+  background: white;
+  color: #C779D0;
+}
+
+body{
+  font-family: sans-serif;
+}
+
+ul .primeiro a{
+  border: none;
+}
+
+#home .home a,
+#contato .contato a,
+#vendas .vendas a,
+#noticias .noticias a,
+#blog .blog a    {
+  background-position: right;
+  color: black;
+  background-color: #FFF;
+}
