@@ -1,0 +1,32 @@
+.perfil{
+  border-radius: 150px;
+  margin: 50px;
+} 
+
+
+#caixa{
+      background: grey;
+
+      height: 250px;
+      width: 250px;
+
+      padding: 20px;
+      margin: 20px;
+
+      border-radius: 20px;
+}
+
+#caixa2{
+  background: grey;
+
+  height: 250px;
+  width: 250px;
+  box-sizing: border-box;
+
+  padding: 20px;
+  margin: 20px;
+  
+  border-radius: 20px;
+}
+
+

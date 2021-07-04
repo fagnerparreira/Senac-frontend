@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <title> flex box</title>
+  <style type="text/css">
+    #principal {
+      background: gray;
+      height: 400px;
+      height: 400px;
+      widows: 400px;
+      padding: 10px;
+
+      display: flex;
+      flex-direction: row;
+      /* row // row-reverse// column // column-reverse */
+      /* padrao: row; */
+
+      flex-wrap: nowrap;
+      /* padão: nowrap; 
+      // wrap  // wrap-reverse // */
+        
+      justify-content: space-evenly;
+      /* flex-start // flex-end // center // space-evelly // space-between // space-around */
+      /* padrao: flex-start */
+
+      align-items: stretch;
+      /* flex-start // flex-end // center // strech // baseline 
+      padrao: strech*/
+
+    }
+
+    .item{
+        background: honeydew;
+        margin: 10px;
+        padding: 10px;
+
+        width: 300px;
+
+    }
+  
+  </style>
+
+</head>
+
+<body>
+
+  <div id="principal">
+          <div class="item">
+            01
+          </div>
+          <div class="item">
+            02
+          </div>
+          <div class="item">
+            03
+          </div>
+          <div class="item">
+            04
+          </div>
+          
+
+  </div>
+
+
+
+</body>
+
+</html>

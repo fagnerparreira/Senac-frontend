@@ -1,0 +1,33 @@
+ul{
+  
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+ul a{
+  display: block;
+  width: 200px;
+  height: 40px;
+  background: #bdc3c7 url('../imagens/menu-seta-branca.png');
+  text-decoration:  none;
+  color: black;
+  text-indent: 30px;
+  line-height: 40px;
+
+}
+a:hover{
+  background-position: right;
+  color: aliceblue;
+  background-color: #5d6d7e;
+}
+
+#home .home a,
+#contato .contato a,
+#vendas .vendas a,
+#noticias .noticias a,
+#blog .blog a    {
+  background-position: right;
+  color: aliceblue;
+  background-color: #5d6d7e;
+}
+

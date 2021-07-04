@@ -1,0 +1,77 @@
+/* FORMATAÇÕES GERAIS */
+body, html {
+  font-family: "Brush Script MT", sans-serif;
+
+  height: 100%;
+  margin: 0;
+
+}
+.conteudo {
+  text-align: justify;
+  padding: 40px;
+  margin: 5px;
+}
+h3{
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+p{
+  color: #2a2b2b;
+  background:  #ecf1f1;
+}
+
+div.titulo-imagem{
+    position: absolute;
+
+    left: 0;
+    top: 45%;
+
+    width: 100%;
+    text-align: center;
+  }
+
+span.titulo1-imagem{
+  background: #111;
+  color: blanchedalmond;
+  padding: 15px;
+  text-transform: uppercase;
+  font-size: 24px;
+  letter-spacing: 5px;
+}
+
+
+
+
+/* EFEITO PARALLAX */
+.imagem1, .imagem2, .imagem3, .imagem4, .imagem5, .imagem6 {
+    position: relative;
+    height: 100%;
+    opacity: 0.8;
+    background-size: cover ;
+     background-attachment: fixed; /* parado ocupando todo o espaço da tela */
+}
+
+/* CONFIGURAÇÃO DE BACKGROUND */
+.imagem1{
+  background-image: url(imagens/imagem1.jpg);
+}
+.imagem2{
+  background-image: url(imagens/imagem2.jpg);
+}
+.imagem3{
+  background-image: url(imagens/imagem3.jpg);
+}
+.imagem4{
+  background-image: url(imagens/imagem4.jpg);
+}
+.imagem5{
+  background-image: url(imagens/imagem5.jpg);
+}
+.imagem6{
+  background-image: url(imagens/imagem6.jpg);
+}
+
+
+

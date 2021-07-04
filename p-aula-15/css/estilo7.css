@@ -1,0 +1,59 @@
+/* ANIMAÇÃO */
+
+@keyframes animakm{
+  from {background-color: red;
+          top: 0;
+          left: 0;
+
+          border-radius: 0px;
+  } 
+  to {background-color: yellow;
+          top: 500px;
+          left: 600px;
+
+          border-radius: 300px;
+  }
+}
+
+
+
+
+#caixa{
+      width:  300px;
+      height: 300px;
+      background: red;
+      margin: 20px;
+
+      position: relative;
+
+      /*animation-name: animakm;
+      animation-duration: 2s;
+      animation-delay: 1; 
+      animation-iteration-count: infinite;
+      -o-animation-direction: alternate-reverse; */
+
+      animation: animakm 2s 3s infinite alternate-reverse;
+
+
+      /* para versoes mais antigas */
+
+      -webkit-animation: animakm 2s 3s infinite alternate-reverse;
+
+      -moz-animation: animakm 2s 3s infinite alternate-reverse;
+      -o-animation: animakm 2s 3s infinite alternate-reverse;
+}
+
+
+#caixa2 {
+        width: 300px;
+        height: 300px;
+        background: orange;
+
+}
+#caixa2:hover{
+        background: blue;
+        width: 600px;
+        border-right: 3px solid red;
+        transition: width 2s, background 5s;
+} 
+
