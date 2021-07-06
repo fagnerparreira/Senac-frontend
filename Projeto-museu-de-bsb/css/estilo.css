@@ -1,10 +1,197 @@
+/* formatação gerais */
+
 body{
     background: #f4f2ec url(../img/fundo.png) repeat-x;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-   
 }
 
 #container{
     width: 1080px;
     margin:  0 auto;
+}
+
+a{
+    text-decoration: none;
+    color: darkblue;
+}
+
+a:visited, a:link{
+    color: darkblue;
+} 
+
+/* header */
+/* titulo */
+h1 {
+    color: blanchedalmond;
+    text-transform: uppercase;
+    float: left;
+}
+
+#titulo-nacional{
+    color:  #7ad2d2;
+}
+
+/* menu de navegação */
+nav ul{
+    list-style-type: none;
+    float: right;
+    margin: 20px;
+    margin-bottom: 50px;
+}
+
+nav li{
+    float: left;
+}
+
+
+nav ul li a{
+        padding: 5px;
+        margin: 5px;
+        color: #87d3ff;
+        display: block; 
+}
+
+nav ul li a:visited, nav ul li a:link{
+    color: #87d3ff;
+}
+nav ul li a:hover{
+    background: darkblue;
+    color: darkkhaki;
+    border-left: 4px solid red;
+    transition: .5s ;
+    padding: 5px;
+    margin: 5px;
+}
+
+/* layout da pagina */
+
+h4{
+    text-transform: uppercase
+}
+
+#conteudo{
+        width: 710px;
+        background: white;
+        float: left;
+        margin-bottom: 20px;
+    }
+}
+/* MAPA */
+#mapa{
+    float: left;
+    margin-left: 25px;
+    width: 310px;
+}
+/* VIDEO */
+ #video{   
+     float: right;
+     margin-right: 25px;
+     width: 310px;
+ }
+
+ #exposicoes{
+        float: left;
+        width: 310px;
+        padding: 25px;
+ }
+ #exposicoes a, #historia a{
+    background: whitesmoke;
+    color: darkblue;
+ }
+ #exposicoes li{
+     padding: 5px;
+ }
+ #exposicoes a:hover, #historia a:hover, footer a:hover{
+   border-bottom: 1px solid darkblue ;
+   transition: .7s;
+ }
+
+ #historia{
+        float: right;
+        width: 310px;
+        margin-right: 25px;
+        text-align: justify;
+        margin-top: 25px;
+        
+    }
+        
+ }
+
+
+/* VISITAS */
+aside{
+        width: 350px;
+        background: white;
+        float: right;
+        padding-bottom: 30px;
+        margin-bottom: 20px;
+}
+
+    fieldset{
+        border: none;
+    }
+
+    #visita{
+        background: yellowgreen;
+        padding: 20px;
+        margin-top: 10px;
+    }
+
+    #btn-form{
+        background: #241b53;
+        color: wheat;
+        border: none;
+        height: 40px;
+        width: 100%;
+
+        margin: 10px;
+
+        text-transform: uppercase;
+    }
+
+    #qtd{
+            width: 35px;
+            margin: 5px;
+    }
+
+    #data{
+        width: 150px;
+        margin: 5px;
+        border: none;
+    }
+
+
+    /* GALERIA DE FOTOS */
+
+    #fotos a{
+        display: block;
+        background: url(../img/fundo-foto.png) repeat-y;
+        padding: 19px 15px 15px 15px;
+        float: left;
+        margin: 10px;
+
+    }
+
+    section#fotos{
+            padding: 30px;
+            background: lightcyan;
+            color:  #5642c1 ;
+    }
+
+/* Rodapé - footer*/
+
+footer{
+    clear: both;
+    text-align: center;
+    margin: 40px;
+    padding: 20px;
+
+    background: url(../img/fundo-rodape.png) no-repeat center top;
+}
+
+footer a{
+    padding: 2px 10px;
+   
+
+
 }
