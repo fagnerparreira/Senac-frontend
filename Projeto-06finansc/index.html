@@ -9,20 +9,32 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <!--FONT AWESOME  -->
-    <script src="https://kit.fontawesome.com/492e80251a.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/e4f5e172d0.js" crossorigin="anonymous"></script>
+
+      <!-- CSS PERSONALIZADO -->
+      <link rel="stylesheet" type="text/css" href="css/estilo.css">
 
     <title>FINANS   - Finanças Pessoais</title>
   </head>
   
   <body>
       <header> 
-          <nav class="navbar navbar-expand-sm- bg-warning navbar-light ms-auto">
+        <nav class="navbar navbar-expand  bg-warning navbar-light ms-auto">
 
-            <div class="container">
-            <a class="navbar-brand" href="#"><img src="img/logo.png" width="140"></a>
+  
+          <div class="container"> 
+            <a class="navbar-brand" href="#">
+              <img src="img/logo.png" width="142">
+            </a>
             
-          
-                <ul class="navbar-nav">
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-principal" aria-controls="nav-principal" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+            
+
+            <div id="nav-principal" class="colapse navbar-collapse">
+                <ul class="navbar-nav ms-auto">
                   <li class="nav-item">
                     <a class="nav-link" href="#">Home</a>
                   </li>
@@ -37,18 +49,157 @@
                   </li>
 
                   <li class="nav-item">
-                    <a class="btn btn-outline-light" href="#">ENTRAR</a>
+                    <a class="btn btn-outline-light ms-5" href="#">ENTRAR</a>
+
+
                   </li>
+
                 </ul>
+
+              </div>
 
             </div>  <!--Fim div container-->
           </nav>
 
       </header>
 
+      <section class="bg-warning text-white">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 align-self-center">
+              <h1 class="display-3"> Suas contas, desconplicadas</h1>
+              <p>Usado por mais de 1 milhão de pessoas, o finans é uma ferramenta onlineque vai facilitar sua vida financeira.</p>
+              <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Seu e-mail" aria-label="Seu e-mail" aria-describedby="button-addon2">
+                <button class="btn  btn-primary" type="button" id="button-addon2">Cadastre-se</button>
+              </div>
+
+                <p>Disponivel para:
+                  <a href="#" class=" btn btn-outline-light">
+                  <i class="fab fa-android "></i>
+                  </a>
+
+                  <a href="#" class=" btn btn-outline-light">
+                    <i class="fab fa-apple "></i>
+                    </a>
+  
+
+                </p>
+
+            </div>  <!--Fim div texto-->
+ 
+            <div class="col-md-6">
+              <img src="img/capa-mulher.png" alt="">
+            </div>  <!--Fim div imagem-->
 
 
+          </div>
 
+        </div>
+
+
+      </section>  <!--Fim seção capa-->
+
+      <section class="caixa">    <!--inicio seção conteudo 1-->
+        <div class="container">
+          <div class="row">
+              <div class="col-md-6  align-self-center">
+                <h2> What is Lorem Ipsum?</h2> 
+                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer to</p>
+                <a href="#" class="btn btn-primary"> Veja mais
+                </a>
+              </div> <!--Fim div texto-->
+              <div class="col-md-6">
+               <img class="img-fluid" src="img/saiba.png" alt="">
+              </div>  <!--Fim div imagem-->
+          </div>  <!--Fim div row-->
+        </div>   <!--Fim div container-->
+      </section>   <!--Fim seção conteudo 1-->
+
+<!-- CONTEUDO 2 -->
+
+      <section class="caixa">    <!--inicio seção conteudo 2-->
+        <div class="container">
+          <div class="row">
+              <div class="col-md-6">
+              <img class="img-fluid" src="img/juros.png" alt="">
+              </div>  <!--Fim div imagem-->
+              <div class="col-md-6  align-self-center">
+                <h2> What is Lorem Ipsum?</h2> 
+                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer to</p>
+                <a href="#" class="btn btn-primary"> Veja mais
+                </a>
+              </div> <!--Fim div texto-->
+          </div>  <!--Fim div row-->
+        </div>   <!--Fim div container-->
+      </section>   <!--Fim seção conteudo 2-->
+
+      <!-- CONTEUDO 3 -->
+
+      <section class="caixa">    <!--inicio seção conteudo 3-->
+        <div class="container">
+          <div class="row">
+              <div class="col-md-4">
+              <img class="img-fluid" src="img/facil.png" alt="">
+              <h2> What is Lorem Ipsum?</h2> 
+                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer to</p>
+              </div>  <!--Fim div imagem-->
+              <div class="col-md-4  align-self-center">
+                <img class="img-fluid" src="img/economize.png" alt="">
+                <h2> What is Lorem Ipsum?</h2> 
+                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer to</p>
+               
+              </div> <!--Fim div texto-->
+              <div class="col-md-4">
+                <img class="img-fluid" src="img/suporte.png" alt="">
+                <h2> What is Lorem Ipsum?</h2> 
+                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer to</p>
+              </div>
+
+          </div>  <!--Fim div row-->
+        </div>   <!--Fim div container-->
+      </section>   <!--Fim seção conteudo 3-->
+
+      <footer class="mt-4 mb-4">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8"> <!-- div navegação rodape-->
+              <p>
+                <a href="#">home</a>
+                <a href="#">recursos</a>
+                <a href="#">beneficios</a>
+                <a href="#">preços</a>
+
+              </p>
+            </div>
+            <div class="col-md-4 d-flex justify-content-end">  <!-- div redes sociais-->
+              <p>
+                <a href="#" class=" btn btn-outline-dark fa-2x">
+                  <i class="fab fa-facebook-square"></i>
+                </a>
+                <a href="#" class=" btn btn-outline-dark fa-2x">
+                  <i class="fab fa-twitter-square"></i>
+                </a>
+                <a href="#" class=" btn btn-outline-dark fa-2x">
+                  <i class="fab fa-instagram-square"></i>
+                </a>
+                <a href="#" class=" btn btn-outline-dark fa-2x">
+                  <i class="fab fa-whatsapp-square"></i>
+                </a>
+ 
+              </p>
+            </div>
+          </div><!--Fim div row-->
+
+          <div class="row">  
+            <h4 class="display-4 fs-6 d-flex justify-content-center">
+              Desenvolvindo por Fagner Parreira
+            </h4>
+
+          </div>
+
+        </div><!--Fim div container-->
+      </footer>
 
 <!-- Optional JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
